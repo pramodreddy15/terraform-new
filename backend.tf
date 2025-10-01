@@ -3,5 +3,6 @@ terraform {
     bucket = "pramodreddybeemireddyxyz"
     key    = "terraform.tfstate"
     region = "us-east-1"
+    use_locking = true
   }
 }
